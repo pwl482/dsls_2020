@@ -1,0 +1,690 @@
+{
+  "generated_by": {
+    "program": "augur",
+    "version": "8.0.0"
+  },
+  "models": {
+    "Host": {
+      "alphabet": [
+        "Homo sapiens",
+        "Rhinolophus sinicus",
+        "?"
+      ],
+      "equilibrium_probabilities": [
+        0.4079787148535509,
+        0.5920212851464491
+      ],
+      "rate": 9.431822452668941,
+      "transition_matrix": [
+        [
+          0.0,
+          2.070118361188476
+        ],
+        [
+          2.070118361188476,
+          0.0
+        ]
+      ]
+    },
+    "country": {
+      "alphabet": [
+        "Australia",
+        "Brazil",
+        "China",
+        "Egypt",
+        "Germany",
+        "India",
+        "Italy",
+        "Nigeria",
+        "Peru",
+        "USA",
+        "?"
+      ],
+      "equilibrium_probabilities": [
+        0.09359014420129656,
+        0.09711409427068186,
+        0.12966422602906977,
+        0.09703478766081537,
+        0.09792858345979763,
+        0.09766417033975137,
+        0.09802670657002385,
+        0.09698461589481559,
+        0.09698461589481587,
+        0.09500805567893215
+      ],
+      "rate": 56.31989434257477,
+      "transition_matrix": [
+        [
+          0.0,
+          1.4348291599967442,
+          1.285610725572195,
+          1.1702689330383018,
+          1.178395909337065,
+          1.2471636691516008,
+          1.4344688525841776,
+          1.0718365673027994,
+          1.0718365673027994,
+          1.108593570293813
+        ],
+        [
+          1.4348291599967442,
+          0.0,
+          1.1833137339369306,
+          1.0453080050213652,
+          1.034809020982853,
+          1.0316973375852128,
+          1.0288424018808873,
+          1.0299942286055246,
+          1.0299942286055246,
+          1.0538817952583048
+        ],
+        [
+          1.285610725572195,
+          1.1833137339369306,
+          0.0,
+          1.1445501315254065,
+          1.1036020188014377,
+          1.0915800816230412,
+          1.0843380395013482,
+          1.0887993300205066,
+          1.0887993300205068,
+          1.1612058568543682
+        ],
+        [
+          1.1702689330383018,
+          1.0453080050213652,
+          1.1445501315254065,
+          0.0,
+          1.1366778553072774,
+          1.0674378459205556,
+          1.041514170999021,
+          1.0607113134163502,
+          1.0607113134163517,
+          1.1120290186131958
+        ],
+        [
+          1.178395909337065,
+          1.034809020982853,
+          1.1036020188014377,
+          1.1366778553072774,
+          0.0,
+          1.1275539772157315,
+          1.0574167495322226,
+          1.1114677018137584,
+          1.1114677018137542,
+          1.057085428792379
+        ],
+        [
+          1.2471636691516008,
+          1.0316973375852128,
+          1.0915800816230412,
+          1.0674378459205556,
+          1.1275539772157315,
+          0.0,
+          1.123624799763953,
+          1.0570178418322724,
+          1.0570178418322724,
+          1.0432508914729821
+        ],
+        [
+          1.4344688525841776,
+          1.0288424018808873,
+          1.0843380395013482,
+          1.041514170999021,
+          1.0574167495322226,
+          1.123624799763953,
+          0.0,
+          1.0362604144367031,
+          1.0362604144367022,
+          1.0366758266202278
+        ],
+        [
+          1.0718365673027994,
+          1.0299942286055246,
+          1.0887993300205066,
+          1.0607113134163502,
+          1.1114677018137584,
+          1.0570178418322724,
+          1.0362604144367031,
+          0.0,
+          1.3954461739366077,
+          1.0407417974206958
+        ],
+        [
+          1.0718365673027994,
+          1.0299942286055246,
+          1.0887993300205068,
+          1.0607113134163517,
+          1.1114677018137542,
+          1.0570178418322724,
+          1.0362604144367022,
+          1.3954461739366077,
+          0.0,
+          1.040741797420695
+        ],
+        [
+          1.108593570293813,
+          1.0538817952583048,
+          1.1612058568543682,
+          1.1120290186131958,
+          1.057085428792379,
+          1.0432508914729821,
+          1.0366758266202278,
+          1.0407417974206958,
+          1.040741797420695,
+          0.0
+        ]
+      ]
+    },
+    "region": {
+      "alphabet": [
+        "Dusseldorf",
+        "Gujarat, Ahmedabad",
+        "Lazio",
+        "Northern Territory",
+        "Victoria",
+        "Washington",
+        "no_data",
+        "?"
+      ],
+      "equilibrium_probabilities": [
+        0.1354260055932099,
+        0.13546514061702122,
+        0.13783305834337653,
+        0.13517328294068046,
+        0.13783305834337814,
+        0.1327418036934398,
+        0.18552765046889405
+      ],
+      "rate": 40.417346200222724,
+      "transition_matrix": [
+        [
+          0.0,
+          1.0243391498992065,
+          1.0202566015928238,
+          1.0179198006426726,
+          1.0202566015928238,
+          1.0234268799589876,
+          1.599149140130904
+        ],
+        [
+          1.0243391498992065,
+          0.0,
+          1.1362301681376128,
+          1.0195914944977351,
+          1.13623016813762,
+          1.025041985835537,
+          1.2921768289262532
+        ],
+        [
+          1.0202566015928238,
+          1.1362301681376128,
+          0.0,
+          1.01831615484895,
+          1.419406402777088,
+          1.0237561596441698,
+          1.1582107948423968
+        ],
+        [
+          1.0179198006426726,
+          1.0195914944977351,
+          1.01831615484895,
+          0.0,
+          1.0183161548489503,
+          1.0224902386660517,
+          1.6042602973315458
+        ],
+        [
+          1.0202566015928238,
+          1.13623016813762,
+          1.419406402777088,
+          1.0183161548489503,
+          0.0,
+          1.0237561596441693,
+          1.158210794842402
+        ],
+        [
+          1.0234268799589876,
+          1.025041985835537,
+          1.0237561596441698,
+          1.0224902386660517,
+          1.0237561596441693,
+          0.0,
+          1.368944208500929
+        ],
+        [
+          1.599149140130904,
+          1.2921768289262532,
+          1.1582107948423968,
+          1.6042602973315458,
+          1.158210794842402,
+          1.368944208500929,
+          0.0
+        ]
+      ]
+    }
+  },
+  "nodes": {
+    "MG772933.1": {
+      "Host": "Rhinolophus sinicus",
+      "Host_confidence": {
+        "Rhinolophus sinicus": 1.0
+      },
+      "Host_entropy": -1.000088900581841e-12,
+      "country": "China",
+      "country_confidence": {
+        "China": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "no_data",
+      "region_confidence": {
+        "no_data": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN908947.3": {
+      "Host": "Homo sapiens",
+      "Host_confidence": {
+        "Homo sapiens": 1.0
+      },
+      "Host_entropy": -1.000088900581841e-12,
+      "country": "China",
+      "country_confidence": {
+        "China": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "no_data",
+      "region_confidence": {
+        "no_data": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MT263074.1": {
+      "Host": "Homo sapiens",
+      "Host_confidence": {
+        "Homo sapiens": 1.0
+      },
+      "Host_entropy": -1.000088900581841e-12,
+      "country": "Peru",
+      "country_confidence": {
+        "Peru": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "no_data",
+      "region_confidence": {
+        "no_data": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MT350282.1": {
+      "Host": "Homo sapiens",
+      "Host_confidence": {
+        "Homo sapiens": 1.0
+      },
+      "Host_entropy": -1.000088900581841e-12,
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "no_data",
+      "region_confidence": {
+        "no_data": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MT451694.1": {
+      "Host": "Homo sapiens",
+      "Host_confidence": {
+        "Homo sapiens": 1.0
+      },
+      "Host_entropy": -1.000088900581841e-12,
+      "country": "Australia",
+      "country_confidence": {
+        "Australia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Victoria",
+      "region_confidence": {
+        "Victoria": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MT525950.1": {
+      "Host": "Homo sapiens",
+      "Host_confidence": {
+        "Homo sapiens": 1.0
+      },
+      "Host_entropy": -1.000088900581841e-12,
+      "country": "Italy",
+      "country_confidence": {
+        "Italy": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Lazio",
+      "region_confidence": {
+        "Lazio": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "MT576584.1": {
+      "Host": "Homo sapiens",
+      "Host_confidence": {
+        "Homo sapiens": 1.0
+      },
+      "Host_entropy": -1.000088900581841e-12,
+      "country": "Nigeria",
+      "country_confidence": {
+        "Nigeria": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "no_data",
+      "region_confidence": {
+        "no_data": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MT582453.1": {
+      "Host": "Homo sapiens",
+      "Host_confidence": {
+        "Homo sapiens": 1.0
+      },
+      "Host_entropy": -1.000088900581841e-12,
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Dusseldorf",
+      "region_confidence": {
+        "Dusseldorf": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MT635269.1": {
+      "Host": "Homo sapiens",
+      "Host_confidence": {
+        "Homo sapiens": 1.0
+      },
+      "Host_entropy": -1.000088900581841e-12,
+      "country": "India",
+      "country_confidence": {
+        "India": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Gujarat, Ahmedabad",
+      "region_confidence": {
+        "Gujarat, Ahmedabad": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MT641501.1": {
+      "Host": "Homo sapiens",
+      "Host_confidence": {
+        "Homo sapiens": 1.0
+      },
+      "Host_entropy": -1.000088900581841e-12,
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Washington",
+      "region_confidence": {
+        "Washington": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MT641645.1": {
+      "Host": "Homo sapiens",
+      "Host_confidence": {
+        "Homo sapiens": 1.0
+      },
+      "Host_entropy": -1.000088900581841e-12,
+      "country": "Australia",
+      "country_confidence": {
+        "Australia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Northern Territory",
+      "region_confidence": {
+        "Northern Territory": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MT658507.1": {
+      "Host": "Homo sapiens",
+      "Host_confidence": {
+        "Homo sapiens": 1.0
+      },
+      "Host_entropy": -1.000088900581841e-12,
+      "country": "Egypt",
+      "country_confidence": {
+        "Egypt": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "no_data",
+      "region_confidence": {
+        "no_data": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000000": {
+      "Host": "Homo sapiens",
+      "Host_confidence": {
+        "Homo sapiens": 0.9998933629631864
+      },
+      "Host_entropy": 0.001081942183277417,
+      "country": "USA",
+      "country_confidence": {
+        "Australia": 0.11848094790781344,
+        "China": 0.09716802133416969,
+        "Egypt": 0.086814190088082,
+        "USA": 0.6017703618788603
+      },
+      "country_entropy": 1.3785425080959577,
+      "region": "Washington",
+      "region_confidence": {
+        "Dusseldorf": 0.003352096931059425,
+        "Northern Territory": 0.0033657563266564954,
+        "Washington": 0.4961663778936405,
+        "no_data": 0.4895513982821926
+      },
+      "region_entropy": 0.7809200059816463
+    },
+    "NODE_0000001": {
+      "Host": "Homo sapiens",
+      "Host_confidence": {
+        "Homo sapiens": 0.9999983900090267
+      },
+      "Host_entropy": 2.308611126613108e-05,
+      "country": "Australia",
+      "country_confidence": {
+        "Australia": 0.2409150089718521,
+        "China": 0.19318455067533974,
+        "Egypt": 0.17411184199470092,
+        "USA": 0.22225006190887678
+      },
+      "country_entropy": 1.8682124430694487,
+      "region": "no_data",
+      "region_confidence": {
+        "Washington": 0.005522350798884031,
+        "no_data": 0.9939202140189254
+      },
+      "region_entropy": 0.03975290557982615
+    },
+    "NODE_0000002": {
+      "Host": "Rhinolophus sinicus",
+      "Host_confidence": {
+        "Homo sapiens": 0.4438549911525879,
+        "Rhinolophus sinicus": 0.556145008847412
+      },
+      "Host_entropy": 0.6868293402353146,
+      "country": "China",
+      "country_confidence": {
+        "China": 0.14369820804427735,
+        "Egypt": 0.09547734844390589,
+        "Germany": 0.0948596143167904,
+        "USA": 0.1030051560880582
+      },
+      "country_entropy": 2.292718747556896,
+      "region": "no_data",
+      "region_confidence": {
+        "Dusseldorf": 0.13048801925078377,
+        "Northern Territory": 0.13035048405179245,
+        "Washington": 0.1498691919554574,
+        "no_data": 0.2191267822086187
+      },
+      "region_entropy": 1.9229751814218783
+    },
+    "NODE_0000003": {
+      "Host": "Homo sapiens",
+      "Host_confidence": {
+        "Homo sapiens": 0.99999925662202
+      },
+      "Host_entropy": 1.1233971252754027e-05,
+      "country": "Australia",
+      "country_confidence": {
+        "Australia": 0.5141656449228961,
+        "Brazil": 0.3113906751218146,
+        "China": 0.11926655620839056,
+        "USA": 0.021305287774609754
+      },
+      "country_entropy": 1.2042464492639213,
+      "region": "no_data",
+      "region_confidence": {
+        "Northern Territory": 0.012461322411851996,
+        "no_data": 0.9872590712997075
+      },
+      "region_entropy": 0.07002544407680752
+    },
+    "NODE_0000004": {
+      "Host": "Homo sapiens",
+      "Host_confidence": {
+        "Homo sapiens": 0.9999992497903495
+      },
+      "Host_entropy": 1.1330348905101757e-05,
+      "country": "Egypt",
+      "country_confidence": {
+        "Australia": 0.2083357639891615,
+        "Egypt": 0.37808492196119775,
+        "Germany": 0.11633481291703957,
+        "USA": 0.07950688314253822
+      },
+      "country_entropy": 1.8398225909806998,
+      "region": "no_data",
+      "region_confidence": {
+        "no_data": 0.9995158054663864
+      },
+      "region_entropy": 0.004786537975416503
+    },
+    "NODE_0000005": {
+      "Host": "Homo sapiens",
+      "Host_confidence": {
+        "Homo sapiens": 0.9999999939721707
+      },
+      "Host_entropy": 1.201138263012493e-07,
+      "country": "Germany",
+      "country_confidence": {
+        "Australia": 0.2163680113859825,
+        "Egypt": 0.11004463044939598,
+        "Germany": 0.30224234181593185,
+        "India": 0.10236390555952948
+      },
+      "country_entropy": 1.9256952749702454,
+      "region": "no_data",
+      "region_confidence": {
+        "Dusseldorf": 0.009778077247014814,
+        "Gujarat, Ahmedabad": 0.002468127587410863,
+        "no_data": 0.9861855248411568
+      },
+      "region_entropy": 0.0854356377579655
+    },
+    "NODE_0000006": {
+      "Host": "Homo sapiens",
+      "Host_confidence": {
+        "Homo sapiens": 0.9999992438327042
+      },
+      "Host_entropy": 1.1414345460374967e-05,
+      "country": "China",
+      "country_confidence": {
+        "Australia": 0.3073533863486682,
+        "Brazil": 0.1168343493066388,
+        "China": 0.3971010136127246,
+        "USA": 0.0754155801013861
+      },
+      "country_entropy": 1.5430371809388237,
+      "region": "no_data",
+      "region_confidence": {
+        "no_data": 0.9995266170341883
+      },
+      "region_entropy": 0.004478718120006119
+    },
+    "NODE_0000008": {
+      "Host": "Homo sapiens",
+      "Host_confidence": {
+        "Homo sapiens": 0.9999992625812961
+      },
+      "Host_entropy": 1.1149849636365716e-05,
+      "country": "Peru",
+      "country_confidence": {
+        "Australia": 0.06028540591193507,
+        "Germany": 0.08645571791810838,
+        "Nigeria": 0.38197874439138185,
+        "Peru": 0.3819787443913847
+      },
+      "country_entropy": 1.467904495119154,
+      "region": "no_data",
+      "region_confidence": {
+        "no_data": 0.999834750199429
+      },
+      "region_entropy": 0.001758381109174483
+    },
+    "NODE_0000011": {
+      "Host": "Homo sapiens",
+      "Host_confidence": {
+        "Homo sapiens": 0.9999992566761681
+      },
+      "Host_entropy": 1.1233207111240012e-05,
+      "country": "India",
+      "country_confidence": {
+        "Australia": 0.30542119029422965,
+        "Germany": 0.1064855889043816,
+        "India": 0.35090899830753797,
+        "Italy": 0.11180982506180834
+      },
+      "country_entropy": 1.6687845939886086,
+      "region": "no_data",
+      "region_confidence": {
+        "Gujarat, Ahmedabad": 0.3747881733930487,
+        "Lazio": 0.12025110904021577,
+        "Victoria": 0.12025110904021534,
+        "no_data": 0.37489942281096467
+      },
+      "region_entropy": 1.3000735394103977
+    },
+    "NODE_0000012": {
+      "Host": "Homo sapiens",
+      "Host_confidence": {
+        "Homo sapiens": 0.9999992567240513
+      },
+      "Host_entropy": 1.12325313731484e-05,
+      "country": "Australia",
+      "country_confidence": {
+        "Australia": 0.518045537530497,
+        "Germany": 0.03046364440572478,
+        "India": 0.1023796812436495,
+        "Italy": 0.30902750447759136
+      },
+      "country_entropy": 1.2380729049436467,
+      "region": "Lazio",
+      "region_confidence": {
+        "Gujarat, Ahmedabad": 0.10755118301084356,
+        "Lazio": 0.38870421128467153,
+        "Victoria": 0.38870421128467075,
+        "no_data": 0.1088144537642855
+      },
+      "region_entropy": 1.2540951643884117
+    }
+  }
+}
