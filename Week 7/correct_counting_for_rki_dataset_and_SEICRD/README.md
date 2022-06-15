@@ -1,0 +1,8 @@
+- SEICRD_daily.csv
+    - contains all counts for S, E, I, C, R, D for each timestamp
+- DSinLS_Week_5_SEIRD_Paul_right_counting.ipynb
+    - just produced this new file above and has the now accurate counting of cases in the RKI dataset that match to the [RKI dashboard](https://experience.arcgis.com/experience/478220a4c454480e823b17327b2bf1d4)
+- do_nothing_reduced.csv 
+    - these are the cases from the ABM model scenario "do nothing" where not most died (here 28% deathrate), unlike in scenario1.csv (which has a 75% death rate)
+- Eva_Week7_TimeSeriesPrediction_right_counting.ipynb
+    - Eva's script but now with the correct counting of cases from the RKi dataset that match to the [RKI dashboard](https://experience.arcgis.com/experience/478220a4c454480e823b17327b2bf1d4)
